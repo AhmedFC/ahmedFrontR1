@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #second {
+            background-color: #DDD;
+             border: 5px solid black;
+        }
+
+       .second .first {
+            color: red;
+        }
+         
+    </style>
 </head>
 <body>
     <img src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1" alt="Not Found"/>
@@ -29,5 +40,92 @@
             <td>cairo - doki</td>
         </tr>
     </table>
+
+    <!-- Absolute url -->
+    <a href="https://www.google.com" target="_blank" title="Go To Google">Google</a>
+
+    <!-- Relative Url -->
+    <a href="index2.html" target="_blank">Show more</a>
+
+    <a href="https://www.google.com">
+    <img src="images/img_avatar.png" alt="not found" style="width: 50px; height: 50px;" />
+    </a>
+
+    <a href="mailto:ahmedmoustafaomar@gmail.com">Send Email</a>
+
+    <button onclick="document.location = 'index2.html'">save</button>
+
+    <br>
+    <br>
+
+    <ul>
+        <li>Coffe</li>
+        <li>juice</li>
+        <li>tea</li>
+        <li>water</li>
+    </ul>
+
+
+    <ol>
+        <li>Coffe</li>
+        <li>juice</li>
+        <li>tea</li>
+        <li>water</li>
+    </ol>
+
+    <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus aliquid iure in delectus repellendus incidunt labore laboriosam dolores earum modi adipisci cum excepturi consequuntur asperiores odit, cumque pariatur quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis nesciunt inventore est ut blanditiis, aut, at quas tenetur iste impedit quidem, similique ullam minus ea facilis reprehenderit explicabo cumque.</p>
+    
+    <div>
+        <h1>frfrf</h1>
+        <p>helolo </p>
+
+    </div>
+    
+     <br>
+     <form action="index2.html">
+        <label>First name</label>
+        <input type="text" id="fname" name="fname" />
+        <br>
+        <input type="radio" name="likes" value="football" />
+        <label>Footbal</label>
+        <input type="radio" name="likes" value="basketball" />
+        <label>basketball</label>
+
+        <input type="checkbox" name="ex1" value="ex1" />
+        <label>I want ex1</label>
+        <input type="checkbox" name="ex2" value="ex2" />
+        <label>I want ex2</label>
+        
+        <label for="">password</label>
+        <input type="password">
+
+        <label for="">email</label>
+        <input type="email">
+
+        <label for="">number</label>
+        <input type="number">
+
+        <label>-- choose gender -- </label>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label>-- choose multiple -- </label>
+        <select name="type" multiple>
+            <option value="one">One</option>
+            <option value="two">Two</option>
+        </select>
+
+        <textarea name="desc" rows="10" cols="20"></textarea>
+        <input type="submit" value="submit">
+        <button type="submit">submit</button>
+     </form>
+
+     <div class="second">
+        <h1>hello</h1>
+        <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corporis debitis dolorem, corrupti, expedita quos eaque asperiores architecto voluptatibus doloribus voluptates neque adipisci molestias! Iure provident quidem ipsa illum deserunt.</p>
+     </div>
 </body>
 </html>
